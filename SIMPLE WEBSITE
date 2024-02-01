@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ths is how you include external css -->
+    <link rel="stylesheet" href="1797.css">
+    <!-- this is how you include external JavaScript -->
+    <script src="1797.js"></script>
+    
+    <title>1797</title>
+</head>
+<body>
+    hello mayank
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et tempore ulla
+    <ul type="circle">
+        <li>This is first item of my unordered list</li>
+        <li>This is second item of my unordered list</li>
+        <ul>
+        <li>Another one</li>
+        <li>Another two</li>
+        <li>Another two</1i>
+        </ul>
+    </ul>    
+     
+    <ol type="a">
+    <li>This is first item of my ordered list</li>
+     <li>This is second item of my ordered list</li>
+<!-- Tables -->
+<h3>HTML Table</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Employee Id</th>
+            <th>Employee Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Harry </td>
+            <td> 2023uai1797 </td>
+            <td> programmar </td>
+        </tr>
+        <tr>
+            <td> Mayank </td>
+            <td> 2023uai1798 </td>
+            <td> programmar </td>
+        </tr>
+        <tr>
+            <td> Mehul </td>
+            <td> 2023uai1799 </td>
+            <td> programmar </td>
+        </tr>      
+</tbody>
+</table>
+<br>
+<form action="backend.php"></form>
+<div>
+Name: <input type="text"name="myname">
+</div>
+<br>
+<div>
+Role  : <input type="text" name="myrole">
+</div>
+<br>
+<div>
+Email: <input type="text" name ="myemail">
+</div>
+<br>
+<br>
+<div>
+    DAte :<input type="date"  name="mydate">  
+</div>
+<label for="checkbox">Checkbox</label>
+<div>
+<input type="checkbox" name="myeligiblility" id="checkbox">    
+</div> 
+<br>
+<div>
+Gender: Male <input type="radio" name="myGender" > Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+</div>
+<div>
+    write about yourself <br>
+    <textarea name="mytext" cols="40" rows="5"></textarea>
+</div>
+<br>
+<div>
+<label for="car">Car</label>
+<select name="myCar" id="car">
+<option value="ind" >Indica</option>
+<option value="swf" >Swift</option>
+</select>
+</div>
+<div>
+<input type="submit" value="Submit now">
+<input type="reset" value="Reset now">
+</div>
+EMPTY - &#8203;
+</body>
+</html>
